@@ -1,0 +1,130 @@
+
+	h1 {
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+		margin:0;
+	}
+
+	#benefits h2 {
+		font-size: 28px;
+	}
+
+	#aboutustxt p {
+		padding-top: 3%;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		font-size: 24px;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	
+	#benefitstxt p {
+		padding-top: 3%;
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		font-size: 18px;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	#btxt12 p {
+		padding-top: 1%;
+	}
+
+	#aboutus {
+		background-image: url(img/tex1.png);
+		-webkit-background-size: cover;
+  		   -moz-background-size: cover;
+  		     -o-background-size: cover;
+  		        background-size: cover;
+	}
+
+/*	#intro h2 {
+		font-size: 3em;
+		font-family: arial,helvetica;
+		color: #000000;
+		margin:0;
+	}*/
+
+/*	#intro p {
+		font-size: 2em;
+		font-family: arial,helvetica;
+		color: #00000f;
+		margin:5px;
+	}*/
+
+	.section {
+		text-align:center;
+	}
+
+	h1 {
+		font-family: 'Lato', sans-serif; 
+		font-weight: 400;
+		font-size: 80px;
+		color: #000000;
+	}
+
+	h2 {
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		color: #000000;
+		font-size: 42px;
+	}
+
+	#border  {
+         border: 1px solid #f51c40;
+         position: absolute;
+         left: 40%;
+         right: 40%;
+    }
+
+    #border2 {
+    	 border: 1px solid #f51c40;
+         position: absolute;
+         left: 43%;
+         right: 43%;
+    }
+
+    #border3 {
+    	 border: 1px solid #f51c40;
+         position: absolute;
+         left: 46%;
+         right: 46%;
+    }
+	#sponsors, img {
+		padding-bottom: 20%;
+	}
+
+	#sponsors h1 {
+		padding-top: 25px;
+	}
+
+	#members {
+		font-size: 16px;
+		padding-left: 10%;
+		padding-right: 10%;
+    	background-image: url(img/tex1.png);
+		-webkit-background-size: cover;
+  		   -moz-background-size: cover;
+  		     -o-background-size: cover;
+  		        background-size: cover;
+	}
+
+	#benefits {
+    	background-image: url(img/tex1.png);
+		-webkit-background-size: cover;
+  		   -moz-background-size: cover;
+  		     -o-background-size: cover;
+  		        background-size: cover;
+	}
+
+	#infoMenu li a {
+		color: #fff;
+	}
+
+	#navigationTooltips {
+		font-size: 60px;
+	}
+
+
