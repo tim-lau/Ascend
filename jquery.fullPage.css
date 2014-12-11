@@ -156,6 +156,7 @@ html, body {
 }
 #fp-nav ul li .fp-tooltip {
     position: absolute;
+    padding: 5px;
     top: -6px;
     background: rgba(0,0,0,0.5);
     color: #FFFFFF;
