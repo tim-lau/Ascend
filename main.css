@@ -7,6 +7,16 @@
 		margin:0;
 	}
 
+	#splash {
+		opacity: 0.7;
+
+    	background-image: url(img/ascend3-i.png);
+		-webkit-background-size: cover;
+  		   -moz-background-size: cover;
+  		     -o-background-size: cover;
+  		        background-size: cover;
+	}
+
 	#benefits h2 {
 		font-size: 28px;
 	}
@@ -34,28 +44,6 @@
 	#btxt12 p {
 		padding-top: 1%;
 	}
-
-/*	#aboutus {
-		background-image: url(img/tex1.png);
-		-webkit-background-size: cover;
-  		   -moz-background-size: cover;
-  		     -o-background-size: cover;
-  		        background-size: cover;
-	}*/
-
-/*	#intro h2 {
-		font-size: 3em;
-		font-family: arial,helvetica;
-		color: #000000;
-		margin:0;
-	}*/
-
-/*	#intro p {
-		font-size: 2em;
-		font-family: arial,helvetica;
-		color: #00000f;
-		margin:5px;
-	}*/
 
 	.section {
 		text-align:center;
@@ -144,6 +132,20 @@
 		font-size: 60px;
 	}
 
+	#sponsors img {
+		max-width: auto;
+		max-height: auto;
+		opacity: .25;
+	    	transition: opacity .5s ease-out;
+	    	-moz-transition: opacity .5s ease-out;
+	    	-webkit-transition: opacity .5s ease-out;
+	    	-o-transition: opacity .5s ease-out;
+	}
+
+	#sponsors img:hover {
+		opacity: 1;
+	}
+
 
 	@media (min-width: 992px) {
 		#small-sponsors {
@@ -157,6 +159,16 @@
 			display: none;
 			width: auto;
 		}
+	}
+
+
+	#splash img {
+	  opacity: 0.7;
+	  position: absolute;
+	  top: 85%;
+	  z-index:1;
+	  left: 85%;
+	  display:block;
 	}
 
 
